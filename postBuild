@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+jupyter serverextension enable --py jupyterlab --sys-prefix
+jupyter nbextension enable --py widgetsnbextension --sys-prefix

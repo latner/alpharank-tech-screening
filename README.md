@@ -23,7 +23,6 @@ pip install -e ".[dev]"
   - `analysis/`: Analysis and query tools
 - `tests/`: Test directory
 - `notebooks/`: Jupyter notebooks
-- `docs/`: Documentation
 
 ## Development
 
@@ -41,6 +40,17 @@ black src tests
 ```bash
 mypy src
 ```
+
+## Binder Integration
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/latner/alpharank-tech-screening/main)
+
+Click the Binder badge above to launch an interactive environment with all dependencies installed.
+
+After the Binder environment loads:
+1. Open `notebooks/00_environment_test.ipynb`
+2. Run all cells to verify the setup
+3. Proceed to example notebooks
 
 ## License
 (Probably a good idea.)
